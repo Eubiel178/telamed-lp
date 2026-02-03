@@ -211,6 +211,10 @@ export const InfoBox = styled("div")`
       font-size: 2.3rem;
     }
 
+    .description {
+      font-size: 0.9rem;
+    }
+
     ul {
       margin-top: 20px;
     }
