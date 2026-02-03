@@ -48,7 +48,8 @@ export const Faq = styled("section")`
       }
 
       button {
-        border: none;
+             text-align: left;
+  border: none;
         background: transparent;
 
         display: flex;
@@ -120,3 +121,4 @@ export const Faq = styled("section")`
     padding: 20px 0;
   }
 `;
+
