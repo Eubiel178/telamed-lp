@@ -194,11 +194,13 @@ export const Faq = styled("section")`
         button,
         p {
           padding: 15px;
+          font-size: 0.9rem;
         }
 
         .content {
           p {
             padding: 0 15px;
+      font-size: 0.9rem;
           }
         }
       }
