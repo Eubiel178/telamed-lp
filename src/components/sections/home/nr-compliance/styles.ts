@@ -33,6 +33,7 @@ export const NrCompliance = styled("section")`
     display: flex;
     gap: 80px;
     align-items: center;
+    justify-content: space-between;
 
     > div {
       width: 100%;
