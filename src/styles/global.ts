@@ -54,6 +54,9 @@ export const GlobalStyles = createGlobalStyle`
       --border-color:hsl(210 20% 90%);
     }
 
+button , a {
+  cursor: pointer;
+}
 
     &::-webkit-scrollbar {
   width: 5px;
