@@ -40,24 +40,32 @@ export const NrCompliance = styled("section")`
   }
 
   @media only screen and (max-width: 1600px) {
+    padding: 40px 0;
+
     .container {
       gap: 65px;
     }
   }
 
   @media only screen and (max-width: 1400px) {
+    padding: 35px 0;
+
     .container {
       gap: 50px;
     }
   }
 
   @media only screen and (max-width: 1200px) {
+    padding: 30px 0;
+
     .container {
       gap: 35px;
     }
   }
 
   @media only screen and (max-width: 1024px) {
+    padding: 20px 0;
+
     .container {
       flex-direction: column;
     }
