@@ -103,4 +103,20 @@ export const Faq = styled("section")`
       }
     }
   }
+
+  @media only screen and (max-width: 1600px) {
+    padding: 54px 0;
+  }
+
+  @media only screen and (max-width: 1400px) {
+    padding: 44px 0;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    padding: 34px 0;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    padding: 20px 0;
+  }
 `;
