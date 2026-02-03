@@ -18,7 +18,7 @@ export const Faq = styled("section")`
     text-align: center;
     font-weight: 800;
     font-size: 1.875rem;
-    line-height: 2.25rem;
+    line-height: 1;
     margin-bottom: 12px;
   }
 
@@ -48,8 +48,7 @@ export const Faq = styled("section")`
       }
 
       button {
-             text-align: left;
-  border: none;
+        border: none;
         background: transparent;
 
         display: flex;
@@ -57,6 +56,7 @@ export const Faq = styled("section")`
         justify-content: space-between;
         width: 100%;
         font-weight: 600;
+        text-align: left;
       }
 
       .content {
@@ -97,28 +97,129 @@ export const Faq = styled("section")`
           transform: translateY(0);
           padding-bottom: 20px;
         }
-
-        button svg {
-          transform: rotate(180deg);
-        }
       }
     }
   }
 
   @media only screen and (max-width: 1600px) {
     padding: 54px 0;
+
+    h2 {
+      font-size: 1.7rem;
+      margin-bottom: 10px;
+    }
+
+    .accordions {
+      margin-top: 35px;
+
+      > div {
+        button,
+        p {
+          padding: 20px 22px;
+        }
+
+        .content {
+          p {
+            padding: 0 22px;
+          }
+        }
+      }
+    }
   }
 
   @media only screen and (max-width: 1400px) {
     padding: 44px 0;
+
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 8px;
+    }
+
+    .accordions {
+      margin-top: 30px;
+
+      > div {
+        button,
+        p {
+          padding: 20px;
+        }
+
+        .content {
+          p {
+            padding: 0 20px;
+          }
+        }
+      }
+    }
   }
 
   @media only screen and (max-width: 1200px) {
     padding: 34px 0;
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 6px;
+    }
+
+    .accordions {
+      margin-top: 25px;
+
+      > div {
+        button,
+        p {
+          padding: 18px;
+        }
+
+        .content {
+          p {
+            padding: 0 18px;
+          }
+        }
+      }
+    }
   }
 
   @media only screen and (max-width: 1024px) {
     padding: 20px 0;
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 4px;
+    }
+
+    .accordions {
+      margin-top: 20px;
+
+      > div {
+        button,
+        p {
+          padding: 15px;
+        }
+
+        .content {
+          p {
+            padding: 0 15px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    h2 {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    h2 {
+      font-size: 1.15rem;
+    }
   }
 `;
-
